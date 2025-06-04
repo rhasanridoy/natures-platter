@@ -1,0 +1,101 @@
+*{
+    /* border: 1px solid red; */
+    color: #111111;
+}
+body{
+    font-family: "Sora";
+}
+#banner{
+   min-height: auto;
+   background-image: linear-gradient(#FFFFFF, #EFEBE3);
+}
+#navbutton1{
+    color: #111111;
+    border: 1px solid #179800;
+    border-radius: 8px;
+}
+#navbutton1:hover{
+    cursor: pointer;
+    background-color: #179800;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+#navbutton1:active{
+    transform: scale(0.9);
+}
+#navbutton2{
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #179800;
+}
+#navbutton2:hover{
+    color: #179800;
+    background-color: white;
+    border: 1px solid #179800;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#navbutton2:active{
+    transform: scale(0.9);
+}
+.mobile-logo{
+    display: none;
+    
+}
+#banner-heading{
+    width: 827px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 29.44%;
+    height: auto;
+    border-radius: 16px;
+    background-color: #EFEBE3;
+    padding: 20px;
+    gap: 32px;
+}
+.box img{
+    width: 150px;
+    height: 150px;
+}
+.box h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.box p{
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 70%;
+    text-align: center;
+}
+.product-box{
+    background-color: white;
+    border: 1px solid #11111110;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 16px;
+    width: 275px;
+    height: 118px;
+}
+#subscribe:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+#subscribe:active{
+    transform: scale(0.9);
+}
+.foot-bar{
+    font-size: 20px;
+    font-weight: normal;
+    color: #EFEBE3;
+}
+.foot-barimg{
+    color: white;
+}

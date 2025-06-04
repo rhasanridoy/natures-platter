@@ -1,0 +1,47 @@
+@media screen and (max-width:640px){
+    body{
+        min-height: 663px;
+    }
+    nav{
+        border: 0.5px solid #179800; 
+        justify-content: space-between;
+        padding:0px 20px      
+    }
+    .mobile-logo{
+        display: block;
+        align-items: start;
+        justify-content: start;
+    }
+    .box img{
+    width: 116px;
+    height: 116px;
+}
+.box{
+    
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+    padding: 20px;
+    gap: 32px;
+}
+.box h1{
+    font-size: 20.18px;
+}
+.box p{
+    font-size: 16.82px;
+    font-weight: lighter;
+    opacity: 70%;
+    text-align: center;
+}
+.product-box{
+    width: 100%;
+    height: auto;
+}
+.foot-bar{
+    font-size: 16px;
+}
+
+#extra-id{
+    color: #179800;
+}
+}
